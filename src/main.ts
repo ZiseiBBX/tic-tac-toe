@@ -1,6 +1,6 @@
 import P5 from "p5";
 import { areEqual } from "./helpers";
-import { bestMove, minimax } from "./minimax";
+import { bestMove } from "./minimax";
 import "./style.css";
 
 export let board: string[][] = [
